@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manuale:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  transition: all 0.5s ease;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.manuale {
+  font-family: "Manuale", sans-serif;
+}
+.iconButton {
+  display: none;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 0.5fr 10fr 0.5fr;
+}
+.footerGrid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 2fr 2fr 2fr 2fr 0.5fr;
+}
+@media only screen and (max-width: 320px) {
+  .navDonate {
+    display: none;
+  }
+  .iconButton {
+    margin-right: -2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .radar {
+    margin: 1rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .footerGrid {
+    grid-template-columns: 0.5fr 2fr 2fr 2fr 0.5fr;
+    display: flex;
+    /* flex-direction: column; */
+  }
+}
+@media only screen and (max-width: 700px) {
+  .txt1 {
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
+  .txt2 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+  .txt3 {
+    font-size: 40px !important;
+    line-height: 41px !important;
+  }
+  .txt4 {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+  .txt5 {
+    width: 60% !important;
+    margin: 1rem !important;
+    padding: 2rem !important;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .iconButton {
+    display: flex;
+    cursor: pointer;
+  }
+  .navDonate {
+    display: none;
+  }
+  .welfareTab {
+    margin: 1rem;
+  }
+}
+@media only screen and (max-width: 1480px) {
+  .cards1 {
+    flex-wrap: wrap;
+  }
+  .card2 {
+    flex-wrap: wrap;
+  }
+}
