@@ -71,12 +71,29 @@ body {
     display: none;
   }
   .iconButton {
-    margin-right: -2rem;
+    margin-right: -1rem;
+  }
+  .iconButton {
+    position: relative;
+    right: 2rem;
+  }
+  .proImg {
+    width: 80%;
   }
 }
 @media only screen and (max-width: 400px) {
+  .txt1 {
+    margin-top: 1rem;
+  }
   .radar {
     margin: 1rem;
+  }
+  .productAdd {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .proButtton {
+    flex-direction: column;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -106,6 +123,10 @@ body {
     width: 60% !important;
     margin: 1rem !important;
     padding: 2rem !important;
+  }
+  .txt6 {
+    font-size: 40px !important;
+    margin: 1rem !important;
   }
 }
 @media only screen and (max-width: 765px) {

@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import { Products } from "./components/Products";
-import {SingleProduct} from "./components/SingleProduct";
+import { SingleProduct } from "./components/SingleProduct";
 function App() {
   return (
     <>

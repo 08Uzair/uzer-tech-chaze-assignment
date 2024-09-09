@@ -12,9 +12,11 @@ const Navbar = () => {
     <nav className="bg-white p-6">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center ml-16">
-          <img src={logo} className="h-8 w-auto" />
-        </div>
+        <NavLink to="/">
+          <div className="flex items-center ml-16">
+            <img src={logo} className="h-8 w-auto" />
+          </div>
+        </NavLink>
 
         {/* Centered Options */}
         <div className="hidden md:flex space-x-6">
@@ -64,7 +66,7 @@ const Navbar = () => {
           >
             {/* Close Button */}
             <button
-              className="absolute top-4 right-4 p-2 text-white focus:outline-none"
+              className=" absolute top-4 right-4 p-2 text-white focus:outline-none"
               onClick={toggleMenu}
             >
               <svg
@@ -85,13 +87,17 @@ const Navbar = () => {
 
             {/* Menu Content */}
             <div className="flex flex-col items-center justify-center h-full space-y-8">
-              <a href="#" className="text-2xl hover:underline">
+              <a href="/" className="text-2xl hover:underline">
                 Home
               </a>
-              <a href="#" className="text-2xl hover:underline">
+              <a href="/" className="text-2xl hover:underline">
                 About
               </a>
-              <a href="#" className="text-2xl hover:underline">
+              <NavLink to="/products" className="text-2xl hover:underline">
+                Products
+              </NavLink>
+
+              <a href="/" className="text-2xl hover:underline">
                 Services
               </a>
               <a href="#" className="text-2xl hover:underline">

@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import Button from "./custom/Button";
 
 export const Product = () => {
   const { id } = useParams();
-  console.log(id)
-  console.log("id")
+  console.log(id);
+  console.log("id");
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
@@ -44,12 +45,8 @@ export const Product = () => {
             ${product.price}
           </p>
           <div className="flex items-center space-x-4 mb-6">
-            <button className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
-              Add to Cart
-            </button>
-            <button className="bg-gray-500 text-white py-2 px-4 rounded-lg hover:bg-gray-600">
-              Buy Now
-            </button>
+            <Button label=" Add to Cart" />
+            <Button label="Buy  Now" />
           </div>
           <div className="text-gray-600">
             <h3 className="font-semibold mb-2">Product Details:</h3>

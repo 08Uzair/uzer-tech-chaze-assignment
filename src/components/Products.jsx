@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import Button from "./custom/Button";
 
 export function Products() {
   const [products, setProducts] = useState([]);
@@ -75,19 +76,7 @@ export function Products() {
               </div>
               <NavLink to={`/products/${item.id}`}>
                 <div className="flex items-center justify-center">
-                  <button
-                    style={{
-                      borderTopWidth: "0px",
-                      borderRightWidth: "1.5px",
-                      borderBottomWidth: "1.5px",
-                      borderLeftWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "#16442C",
-                    }}
-                    className="m-4 mt-[2rem] mb-[1rem] bg-[#F8F6E4] w-[162px] h-[60px] hover:bg-[#FDC138] hover:border-[#AF8523] text-black px-4 py-2 text-[16px] font-medium rounded-full"
-                  >
-                    Buy Now
-                  </button>
+                  <Button label="Buy Now" />
                 </div>
               </NavLink>
             </div>

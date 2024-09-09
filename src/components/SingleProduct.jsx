@@ -25,13 +25,13 @@ export const SingleProduct = () => {
     <div className="container mx-auto p-6">
       <div className="flex flex-col gap-6">
         {/* Product Image */}
-        <div className="flex justify-center items-center">
+        <div className="productAdd flex justify-center items-center">
           <img
             src={product.thumbnail}
             alt={product.title}
-            className="w-[30%] h-auto rounded-lg shadow-lg"
+            className="proImg w-[30%] h-auto rounded-lg shadow-lg"
           />
-           <div className="flex items-center space-x-4 m-6">
+           <div className="proButtton flex items-center space-x-4 m-6">
            <button
                     style={{
                       borderTopWidth: "0px",

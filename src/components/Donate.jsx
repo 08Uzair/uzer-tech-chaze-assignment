@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../images/Donate1.png";
 import img2 from "../images/Clothes.png";
 import img3 from "../images/Fried Chicken.png";
+import Button from "./custom/Button";
 
 export function Donate() {
   const data = [
@@ -47,19 +48,7 @@ export function Donate() {
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <button
-              style={{
-                borderTopWidth: "0px",
-                borderRightWidth: "1.5px",
-                borderBottomWidth: "1.5px",
-                borderLeftWidth: "0px",
-                borderStyle: "solid",
-                borderColor: "#16442C",
-              }}
-              className="bg-[#F8F6E4] w-[162px] h-[60px] hover:bg-[#FDC138] hover:border-[#AF8523] text-black px-4 py-2 text-[16px] font-medium rounded-full"
-            >
-              Donate
-            </button>
+           <Button label="Donate"/>
           </div>
         </div>
       ))}
