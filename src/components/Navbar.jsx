@@ -45,7 +45,7 @@ const Navbar = () => {
             className="bg-[#399866] text-white px-4 py-2 rounded-full "
           >
             Donate
-          </button>
+          </button> 
         </div>
         <div className="iconButton flex items-center mr-16">
           <button onClick={toggleMenu}>

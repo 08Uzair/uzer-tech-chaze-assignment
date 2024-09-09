@@ -68,7 +68,7 @@ body {
     cursor: pointer;
   }
   .navDonate {
-    display: none;
+    display: none !important;
   }
   .welfareTab {
     margin: 1rem;
