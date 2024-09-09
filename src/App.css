@@ -35,9 +35,8 @@ body {
 }
 @media only screen and (max-width: 650px) {
   .footerGrid {
-    grid-template-columns: 0.5fr 2fr 2fr 2fr 0.5fr;
     display: flex;
-    /* flex-direction: column; */
+    flex-wrap: wrap;
   }
 }
 @media only screen and (max-width: 700px) {
