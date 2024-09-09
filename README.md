@@ -14,14 +14,22 @@ Check out the git hub link here : [**Source Code**](https://github.com/08Uzair/u
 
 - **React.js**: JavaScript library for building user interfaces.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
+- **DummyJSON Products API**: Used for fetching product data to display on the product listing and details pages.
 
 
 
 # 📑 Project Features
 
 - **Responsive Design**: Fully responsive layout for desktop, tablet, and mobile.
+- 
 - **Figma Design Implementation**: The design closely follows the provided Figma file, including typography, color schemes, and layout.
+- 
 - **Animations and Interactions**: All buttons, forms, and interactions have been implemented as per the design.
+- 
+-  **Product Listing Page**: Displays a list of products fetched from the DummyJSON API.
+-  
+- **Product Details Page**: Displays detailed information about a selected product using the DummyJSON API.
+
 
 # ⚙️ Installation and Setup
 
@@ -51,33 +59,68 @@ Open http://localhost:3000 to view the website.
 ```
 # 📂 Project Structure
 
-├── src/
+/public
 
-│   ├── components/
+/src
 
-│   │   ├── Card.jsx
+  /components
+  
+    /custom
+    
+      - Button.jsx
+      
+      - Header.jsx
+      
+ - Card.jsx
+      
+ - Donate.jsx
+      
+ - Footer.jsx
+      
+ - Hero.jsx
+      
+ - MobileFooter.jsx
 
-│   │   ├── Donate.jsx
+ - Navbar.jsx
+      
+ - Product.js
+      
+ - Products.jsx
+      
+ - Section1.jsx
+      
+ - Section2.jsx
+      
+ - Section3.jsx
+      
+ - Section4.jsx
+      
+ - SingleProduct.jsx
+      
+  /images
+  
+  /utils
+  
+    /data
+    
+      - section2.js
+      
+      - index.js
+      
+- App.css
+  
+- App.js
+  
+- index.css
+  
+- index.js
+  
+- .gitignore
+  
+- package-lock.json
+  
+- package.json
 
-│   │   ├── Footer.jsx
-
-│   │   ├── Hero.jsx
-
-│   │   ├── Navbar.jsx
-
-│   │   ├── Section1.jsx
-
-│   │   ├── Section2.jsx
-
-│   │   ├── Section3.jsx
-
-│   │   ├── Section4.jsx
-
-│   ├── images/
-
-│   ├── App.css
-
-│   ├── App.js
 
 
 
@@ -91,6 +134,17 @@ c. Push the code to a GitHub repository.
 d. Link the repository with Vercel.
 
 e. Vercel will automatically build and deploy the project.
+
+## 📝 Evaluation Criteria
+Accuracy to Design: The website closely follows the provided Figma design.
+
+Code Quality: Clean, structured, and maintainable code.
+
+Responsiveness: Fully responsive for all device sizes.
+
+Deployment: Deployed and functional on Vercel.
+
+Commit History: Regular and meaningful commits.
 
 
 ## 📝 Author
