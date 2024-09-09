@@ -96,4 +96,4 @@ e. Vercel will automatically build and deploy the project.
 ## 📝 Author
 Uzer Qureshi
 
-`GitHub`: https://github.com/08Uzair
+`GitHub` :  https://github.com/08Uzair
