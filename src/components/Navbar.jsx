@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../images/logo.png";
 import icon from "../images/icon.png";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,12 +18,16 @@ const Navbar = () => {
 
         {/* Centered Options */}
         <div className="hidden md:flex space-x-6">
-          <a href="#home" className="text-gray-600 hover:text-blue-500">
+          <a href="/" className="text-gray-600 hover:text-blue-500">
             Home
           </a>
           <a href="#about" className="text-gray-600 hover:text-blue-500">
             About
           </a>
+          <NavLink to="/products" className="text-gray-600 hover:text-blue-500">
+            Products
+          </NavLink>
+
           <a href="#services" className="text-gray-600 hover:text-blue-500">
             Services
           </a>
@@ -45,7 +50,7 @@ const Navbar = () => {
             className="bg-[#399866] text-white px-4 py-2 rounded-full "
           >
             Donate
-          </button> 
+          </button>
         </div>
         <div className="iconButton flex items-center mr-16">
           <button onClick={toggleMenu}>
