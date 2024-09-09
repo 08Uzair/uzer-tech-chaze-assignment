@@ -2,11 +2,11 @@
 
 1. This is a  website built based on the provided Figma design for the TechChaze Assignment.
 2. The project utilizes  **React.js**, and **Tailwind CSS**.
-3. The site is deployed on **Vercel**.
+3. The site is deployed on **Netlify**.
 
 # 🔗 Live Demo & Github Link
 
-Check out the live website here: [**Live Site**](https://uzer-tech-chaze-assignment.vercel.app) .
+Check out the live website here: [**Live Site**](https://uzer-tech-chaze-assignment.netlify.app/) .
 
 Check out the git hub link here : [**Source Code**](https://github.com/08Uzair/uzer-tech-chaze-assignment) .
 
