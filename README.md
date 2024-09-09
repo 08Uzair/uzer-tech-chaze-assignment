@@ -6,7 +6,7 @@
 
 # 🔗 Live Demo & Github Link
 
-Check out the live website here: [**Live Site**](https://your-deployed-site.vercel.app) .
+Check out the live website here: [**Live Site**](https://uzer-tech-chaze-assignment.vercel.app) .
 
 Check out the git hub link here : [**Source Code**](https://github.com/08Uzair/uzer-tech-chaze-assignment) .
 
